@@ -34,17 +34,31 @@ books)
 Services:
 
   o createUser 
+  
       Creates the user if he is not already available in the data store.
+      
   o getAllUsers
+  
       Gives the list of all users registered in the library
+      
   o updateUser
+  
       Update an existing user
+      
   o getAllBooks
+  
       Gives list of all books in the library
+      
   o findBookByName
+  
       Given the name of the book, searches for any book that contains the given name
+      
   o addBook
+  
       Adds a new book to the inventory
+      
   o checkOutBook
+  
     Takes the user id and book id as inputs
+    
     A book that is already checked out, cannot be checked out again (send proper error codes back) 
