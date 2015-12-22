@@ -3,19 +3,29 @@
 User has the following properties
 
   o id (User's ID uniquely identifies a user )
+  
   o firstName (alphabets)
+  
   o middleName (alphabets but it is optional)
+  
   o lastName (alphabets)
+  
   o age (valid non zero positive number)
+  
   o gender (M or F)
+  
   o phone (10-digit positive number)
+  
   o zip (optional field)
 
 Book has the following properties
 
   o id
+  
   o name
+  
   o authors (can have multiple authors)
+  
   o checkedOutBy (user that has this book checked out)
 
 Use ArrayList of objects as your data store. (for ex: one arraylist for storing users and one arraylist for storing 
