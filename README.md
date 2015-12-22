@@ -3,7 +3,6 @@
 User has the following properties
 
   o id (User's ID uniquely identifies a user )
-
   o firstName (alphabets)
   o middleName (alphabets but it is optional)
   o lastName (alphabets)
